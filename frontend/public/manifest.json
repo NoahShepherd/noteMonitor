@@ -1,0 +1,15 @@
+{
+  "short_name": "NoteMonitor",
+  "name": "Note Monitor",
+  "icons": [
+    {
+      "src": "favicon/icon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#f1f130"
+}

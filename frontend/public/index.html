@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicon/icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon/icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon/icon.png">
+
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  
+  <title>NoteMonitor</title>
+  <style>
+    html, body, .full-content {
+      height: 100%;
+      background: #000000; 
+      margin: 0;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+    .easyIn {
+      opacity: 1;
+      transition: opacity 0.3s ease;
+    }
+    .easyOut {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root" class="full-content"></div>
+</body>
+
+</html>
